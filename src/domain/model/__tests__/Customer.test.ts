@@ -1,8 +1,8 @@
 import { Customer } from "../Customer";
-import { CustomerName } from "../CustomerName";
-import { CustomerContact } from "../CustomerContact";
 import { CustomerAddress } from "../CustomerAddress";
+import { CustomerContact } from "../CustomerContact";
 import { CustomerId } from "../CustomerId";
+import { CustomerName } from "../CustomerName";
 
 describe("Customer Entity", () => {
   it("顧客を正しく作成できること", () => {
